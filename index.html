@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script type="module" src="./js/main.js" defer></script>
+    <script src="./js/theme.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="container">
+
+    <div class="title">
+        <h1>Weather App</h1>
+    </div>
+
+    <div class="search">
+        <form>
+            <input type="search" id="search" name="search" placeholder="Search City">
+        </form>
+    </div>
+
+    <div class="weather">
+        <div class="description" data-description></div>
+        <div class="city" data-city></div>
+        <div class="temp-container">
+            <div class="temp-left-container">
+                <div class="temp" data-temp></div>
+            </div>
+            <div class="temp-right-container">
+                <div class="feels-like" data-feels-like></div>
+                <div class="temp-max" data-temp-max></div>
+                <div class="temp-min" data-temp-min></div>
+                <div class="humidity" data-humidity></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
