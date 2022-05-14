@@ -6,6 +6,7 @@ A Weather app from the Javascript course in [The Odin Project](https://www.theod
 
 - Display Time
 - Farenheit Toggle
+- Invalid City Error Handling
 
 ## Technologies
 
